@@ -132,8 +132,10 @@ The project demonstrates how Q-Commerce data can be analyzed to generate operati
 Salary-Data-Analysis/Data/Images/Dashboard.png
 ## Dashboard Preview
 
-### Salary KPI Dashboard
-![Dashboard](Images/Salary Dashboard.pngg)
+
+## Salary Dashboard
+
+![Salary Dashboard](Data/Images/Salary Dashboard.png)
 
 ### Salary Distribution
 ![Salary Distribution](images/salary_distribution.png)
