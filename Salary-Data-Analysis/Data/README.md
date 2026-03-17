@@ -140,3 +140,5 @@ Salary-Data-Analysis/Data/Images/Dashboard.png
 
 ### Top Job Roles by Salary
 ![Top Job Roles](images/job_roles_salary.png)
+
+Salary-Data-Analysis/Data/Images
