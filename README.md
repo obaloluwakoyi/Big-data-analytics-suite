@@ -55,6 +55,8 @@ pip install -r requirements.txt
 Launch the environment:
 Open any .ipynb file in Jupyter Lab or VS Code to view the interactive visualizations.
 
+
+
 🏗️ Future Roadmap
 [ ] Real-time Stream: Integrating a mock Kafka stream to simulate live order updates for the Q-Commerce dashboard.
 
