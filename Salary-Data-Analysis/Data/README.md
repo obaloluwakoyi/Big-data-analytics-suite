@@ -1,134 +1,137 @@
-# Q-Commerce Data Analysis & KPI Dashboard
+# Salary Data Analysis & KPI Dashboard
 
 ## Project Overview
 
-Quick Commerce (Q-Commerce) refers to ultra-fast delivery services that deliver products within a short time frame, typically 10–30 minutes. Companies operating in this sector rely heavily on data to optimize delivery operations, manage demand, and improve customer satisfaction.
-
-This project analyzes Q-Commerce operational data to identify patterns in order demand, delivery performance, and revenue generation. The analysis transforms raw data into meaningful insights and visualizations that support operational decision-making.
+This project analyzes salary data from the technology industry to uncover trends in compensation, job demand, and geographic salary differences. Using data analysis and visualization techniques, the project transforms raw salary data into a KPI dashboard that highlights key insights about the technology job market.
 
 ---
 
 # Project Objectives
 
-* Analyze order demand and delivery performance in Q-Commerce operations.
-* Identify factors affecting delivery efficiency.
-* Evaluate customer purchasing behavior.
-* Measure operational performance using key performance indicators (KPIs).
-* Build a data dashboard to visualize operational trends and insights.
+* Analyze salary distribution across technology roles.
+* Identify the highest-paying job roles in the dataset.
+* Examine job demand based on the frequency of job roles.
+* Compare salary levels across major technology cities.
+* Explore the relationship between company ratings and salaries.
+* Build a KPI dashboard to visualize salary trends and insights.
 
 ---
 
 # Dataset Information
 
-The dataset contains operational and transactional data related to Q-Commerce orders.
+The dataset contains salary information from technology companies with the following variables:
 
-| Column           | Description                                  |
-| ---------------- | -------------------------------------------- |
-| Order ID         | Unique identifier for each order             |
-| Customer ID      | Unique identifier for customers              |
-| Order Time       | Time when the order was placed               |
-| Delivery Time    | Time taken to complete delivery              |
-| Order Value      | Total value of the order                     |
-| Delivery Partner | Delivery personnel responsible for the order |
-| Location         | Delivery location                            |
-| Product Category | Category of product ordered                  |
+| Column            | Description                            |
+| ----------------- | -------------------------------------- |
+| Rating            | Company rating by employees            |
+| Company Name      | Name of the company                    |
+| Job Title         | Job title                              |
+| Salary            | Salary offered                         |
+| Salaries Reported | Number of salary reports               |
+| Location          | Job location                           |
+| Employment Status | Full-time, Intern, Contractor, Trainee |
+| Job Roles         | Type of technical role                 |
+
+Dataset size:
+
+* **22,000+ records**
+* **11,000+ companies**
 
 ---
 
 # Exploratory Data Analysis (EDA)
 
-The analysis process includes the following steps:
+Main analysis steps include:
 
 1. Data cleaning and preprocessing
-2. Order volume analysis
-3. Delivery time distribution analysis
-4. Customer demand pattern analysis
-5. Order value analysis
-6. Location-based delivery performance analysis
+2. Salary distribution analysis
+3. Job role salary comparison
+4. Location-based salary comparison
+5. Rating vs salary analysis
+6. Employment status salary comparison
 
 ---
 
 # KPI Dashboard
 
-Key performance indicators used in the project include:
+The dashboard includes several visualizations:
 
-| KPI                   | Description                             |
-| --------------------- | --------------------------------------- |
-| Total Orders          | Total number of orders processed        |
-| Average Delivery Time | Average time taken to deliver orders    |
-| Total Revenue         | Total revenue generated from orders     |
-| Average Order Value   | Average amount spent per order          |
-| Orders per Location   | Distribution of demand across locations |
-| Delivery Efficiency   | Delivery performance metrics            |
+## Salary Analysis
 
----
+* Salary Distribution
+* Salary by Job Role
+* Salary by Location
 
-# Dashboard Visualizations
+## Market Insights
 
-The project includes several visualizations to support analysis:
+* Most Common Job Roles
+* Employment Status vs Salary
 
-### Operations
+## Company Insights
 
-* Order volume over time
-* Delivery time distribution
-
-### Customer Behavior
-
-* Average order value
-* Popular product categories
-
-### Location Insights
-
-* Orders by location
-* Delivery performance by location
+* Rating vs Salary
 
 ---
 
 # Key Insights
 
-* Peak order demand occurs during specific time periods.
-* Certain locations experience higher delivery times, indicating potential logistical challenges.
-* A small number of product categories generate a large share of total revenue.
-* Faster delivery times contribute to improved customer satisfaction and operational efficiency.
+1. **Software Development Engineers dominate the job market.**
+2. **Database engineers and backend developers have the highest salaries.**
+3. **Tech hubs like Mumbai and Bangalore offer higher salaries.**
+4. **Full-time employees earn significantly more than interns.**
+5. **Companies with higher ratings tend to offer better salaries.**
 
 ---
 
 # Business Recommendations
 
-* Optimize delivery routes to reduce delivery time.
-* Increase delivery capacity during peak demand periods.
-* Focus on high-performing product categories.
-* Improve operational efficiency in locations with higher delivery delays.
+1. Job seekers should focus on **high-demand engineering roles**.
+2. Companies should **benchmark salaries** to remain competitive.
+3. Tech professionals seeking higher pay should target **major tech cities**.
+4. Organizations should improve **employee satisfaction** to attract talent.
 
 ---
 
 # Tools Used
 
-| Tool             | Purpose                   |
-| ---------------- | ------------------------- |
-| Python           | Data analysis             |
-| Pandas           | Data manipulation         |
-| Matplotlib       | Data visualization        |
-| Seaborn          | Statistical visualization |
-| Jupyter Notebook | Development environment   |
+| Tool             | Purpose                 |
+| ---------------- | ----------------------- |
+| Python           | Data analysis           |
+| Pandas           | Data cleaning           |
+| Seaborn          | Data visualization      |
+| Matplotlib       | Charts                  |
+| Jupyter Notebook | Development environment |
 
 ---
 
 # Project Outcome
 
-The project demonstrates how Q-Commerce data can be analyzed to generate operational insights and build a KPI dashboard that supports better decision-making in fast-delivery retail operations.
+This project transforms raw salary data into a KPI dashboard and actionable insights, helping to better understand compensation trends in the technology job market.
 
 ---
 
 # Skills Demonstrated
 
 * Data Cleaning
-* Exploratory Data Analysis (EDA)
+* Exploratory Data Analysis
 * Data Visualization
-* KPI Dashboard Development
+* KPI Dashboard Design
 * Business Insight Generation
 
 
 
+## Dashboard Preview
 
+## Dashboard Preview
 
+### Salary Distribution
+![Salary Distribution](Data/Images/Salary.png)
+
+### Top Paying Roles
+![Top Roles](Data/Images/Salary Top 10 role job.png)
+
+### Salary by City
+![Top Cities](Data/Images/Top cities.png)
+
+### Full Dashboard
+![Dashboard](Data/Images/Salary Dashboard.png)
