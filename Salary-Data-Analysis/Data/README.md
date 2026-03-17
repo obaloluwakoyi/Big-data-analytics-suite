@@ -122,14 +122,4 @@ This project transforms raw salary data into a KPI dashboard and actionable insi
 
 ## Dashboard Preview
 
-### Salary Distribution
-![Salary Distribution](Data/Images/Salary.png)
-
-### Top Paying Roles
-![Top Roles](Data/Images/Salary Top 10 role job.png)
-
-### Salary by City
-![Top Cities](Data/Images/Top cities.png)
-
-### Full Dashboard
-![Dashboard](Data/Images/Salary Dashboard.png)
+![Salary Dashboard](Data/Images/salary_dashboard.png)
