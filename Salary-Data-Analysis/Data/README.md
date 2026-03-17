@@ -133,9 +133,9 @@ Salary-Data-Analysis/Data/Images/Dashboard.png
 ## Dashboard Preview
 
 
-## Salary Dashboard
+###Salary Dashboard
 
-![Salary Dashboard](Data/Images/Salary Dashboard.png)
+![Salary Dashboard](Images/Salary Dashboard.png)
 
 ### Salary Distribution
 ![Salary Distribution](images/salary_distribution.png)
