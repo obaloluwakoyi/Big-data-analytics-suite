@@ -127,3 +127,16 @@ The project demonstrates how Q-Commerce data can be analyzed to generate operati
 * Data Visualization
 * KPI Dashboard Development
 * Business Insight Generation
+
+
+Salary-Data-Analysis/Data/Images/Dashboard.png
+## Dashboard Preview
+
+### Salary KPI Dashboard
+![Dashboard](Images/Dashboard.png)
+
+### Salary Distribution
+![Salary Distribution](images/salary_distribution.png)
+
+### Top Job Roles by Salary
+![Top Job Roles](images/job_roles_salary.png)
