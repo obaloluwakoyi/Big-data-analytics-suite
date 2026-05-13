@@ -46,7 +46,7 @@ Clone the repository:
 
 Bash
 
-git clone https://github.com/obaloluwakoyi/Big-data-analytics-suite.gir
+git clone https://github.com/obaloluwakoyi/Big-data-analytics-suite.git
 Install dependencies:
 
 Bash
